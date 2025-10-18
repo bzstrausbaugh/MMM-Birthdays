@@ -1,0 +1,29 @@
+.MMM-Birthday {
+  display: flex;
+  flex-direction: column;
+}
+
+.MMM-Birthday .header {
+  font-size: var(--font-size-medium);
+  text-decoration: underline;
+}
+
+.MMM-Birthday .entry {
+  font-size: var(--font-size-small);
+}
+
+.MMM-Birthday .none {
+  font-style: italic;
+}
+
+.MMM-Birthday .past {
+  filter: brightness(45%);
+}
+
+.MMM-Birthday .future {
+  filter: brightness(75%);
+}
+
+.MMM-Birthday .today {
+  color: '#ffffff';
+}
