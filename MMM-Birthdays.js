@@ -49,7 +49,7 @@ Module.register('MMM-Birthdays', {
       sheetName: _this.config.sheetName,
     });
 
-    setTimeout(_this.getBirthdays, 60 * 60 * 1000, _this); //Refresh every hour
+    setTimeout(_this.getBirthdays, 5 * 60 * 1000, _this); //Refresh every hour
   },
 
   getScripts: function () {
