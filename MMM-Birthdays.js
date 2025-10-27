@@ -1,4 +1,6 @@
 function updateBirthdays(payload) {
+  const wrapper = document.getElementById('birthday-wrapper');
+  wrapper.innerHTML = `<div id="birthday-header" class="header">Birthdays for</div><div id="birthday-entries" class="entry"></div>`;
   const today = dayjs().startOf('day');
   const header = document.getElementById('birthday-header');
   header.innerHTML = `Birthdays for ${today.format('MMMM')}`;
