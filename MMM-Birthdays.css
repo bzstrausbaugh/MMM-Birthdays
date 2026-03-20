@@ -19,13 +19,13 @@
 }
 
 .MMM-Birthday .past {
-  filter: brightness(45%);
+  color: '#8c8e8b';
 }
 
 .MMM-Birthday .future {
-  filter: brightness(75%);
+  color: '#ececec';
 }
 
 .MMM-Birthday .today {
-  color: '#ffffff';
+  color: '#ffff00';
 }
